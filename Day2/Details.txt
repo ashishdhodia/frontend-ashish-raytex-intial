@@ -1,0 +1,5 @@
+8 empty rectangle boxes with similar amnt of margin and padding
+
+create resume 
+left img
+right title resume
