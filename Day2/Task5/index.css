@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background: rgb(110, 61, 124);
+}
+#download-app-link {
+  float: right;
+}
+a {
+  float: right;
+}
+#logo {
+  height: 50px;
+  margin: 10px 10px 10px 70px;
+}
+#navigation-bar {
+  float: right;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+footer {
+  /* position: fixed; */
+  bottom: 0%;
+  height: 75px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid black;
+}
+a {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+a:hover {
+  color: yellow;
+}
+span {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  text-align: center;
+}
+#copyright {
+  text-align: left;
+  margin-left: 100px;
+}
+#body-bg {
+  width: 100%;
+  height: 500px;
+}
+
+#display {
+  width: 100%;
+}
+
+/*  */
+
+.initial {
+  /* padding: 0 200px 0 200px; */
+  text-align: center;
+  margin: 10px;
+  color: rgb(143, 138, 138);
+}
+
+.temp {
+  margin-bottom: 30px;
+}
+
+.grid {
+  height: 700px;
+  background-color: rgb(230, 222, 222);
+}
+
+.data {
+  margin: 0 189px 0 189px;
+  padding-top: 10px;
+}
+
+.para {
+  text-align: justify;
+  margin: 0;
+}
+
+.show {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+  width: 285px;
+  height: 435px;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  text-align: left;
+  float: left;
+  margin-right: 20px;
+  color: rgb(82, 80, 80);
+}
+
+.show-text {
+  background-color: white;
+  padding: 10px;
+  text-align: justify;
+  font-size: smaller;
+}
+
+.read-more {
+  border: none;
+  color: white;
+  margin-top: 10px;
+  height: 35px;
+  width: 264px;
+  background-color: #8ab44b;
+}
+
+.footer1 {
+    /* position: fixed; */
+    bottom: 0%;
+    height: 340px;
+    width: 100%;
+    background: rgb(110, 61, 124);
+    border-top: 1px solid black;
+  }
+
+  .grid-head {
+      margin-bottom: 0;
+  }
+
+  .grid-text {
+      margin-top: 2px;
+  }
+
+  .f-list {
+    color: white;
+    margin: 60px;
+  }
