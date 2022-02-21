@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./../css/index.css" />
+    <link rel="stylesheet" href="./../css/contactus.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li class="li-right"><a href="contactus.html">Contact Us</a></li>
+          <li class="li-right"><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="form">
+          <form id="form">
+            <div class="details">
+              <label class="label">First Name:</label>
+              <input id="fname" type="text" value="ABC" />
+            </div>
+            <br />
+            <div class="details">
+              <label class="label">Last Name:</label>
+              <input id="lname" type="text" value="XYZ" />
+            </div>
+            <br />
+            <div class="details">
+              <label class="label">Email:</label>
+              <input id="email" type="email" value="abc@xyz" />
+            </div>
+            <br />
+            <div class="details">
+              <label class="label">Number:</label>
+              <input id="mnumber" type="number" value="123456" />
+            </div>
+            <br />
+            <input type="button" onclick="show()" value="Submit" />
+          </form>
+          <p id="formData"></p>
+        </div>
+      </div>
+      <div class="footer">
+        <p id="copyright">©2022</p>
+      </div>
+    </div>
+    <script src="./../js/contactus.js"></script>
+  </body>
+</html>
